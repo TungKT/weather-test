@@ -119,7 +119,7 @@ def runtest(interval, duration):
     total_count = duration//interval
     for i in range(total_count):
         if i> 0:
-            logger.info(f'sleep {interval}s ({interval/3600}h) ...')
+            logger.info(f'sleep {interval}s ({round(interval/3600, 3)}h) ...')
             time.sleep(interval)
         logger.info('*'*10 + f' start (test_number = {i+1}) ' + '*'*10)
         suite = unittest.TestLoader().loadTestsFromName('suites.weather_test.WeatherTest')

@@ -1,0 +1,35 @@
+
+Summary Information: | Total = 24 | Pass = 0 | Fail = 24 | Error = 0 |
+Start Time:          2023-10-13 09:00:34.624025
+End Time:            2023-10-14 08:03:03.090522
+Elapsed Time:        23:02:28.466497
+    
+Test Statistics
++---------------+----------------------------------------------------+---------------------+---------------------+----------------+----------+
+|  TEST NUMBER  |                        NAME                        |     START TIME      |      STOP TIME      |  ELAPSED TIME  |  RESULT  |
+|---------------+----------------------------------------------------+---------------------+---------------------+----------------+----------|
+|       1       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 09:00:34 | 2023-10-13 09:00:39 | 0:00:04.799997 |   Fail   |
+|       2       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 10:00:39 | 2023-10-13 10:00:44 | 0:00:04.564548 |   Fail   |
+|       3       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 11:00:44 | 2023-10-13 11:00:51 | 0:00:06.745350 |   Fail   |
+|       4       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 12:00:51 | 2023-10-13 12:00:55 | 0:00:04.291615 |   Fail   |
+|       5       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 13:00:55 | 2023-10-13 13:01:01 | 0:00:06.384796 |   Fail   |
+|       6       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 14:01:01 | 2023-10-13 14:01:06 | 0:00:04.812700 |   Fail   |
+|       7       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 15:01:06 | 2023-10-13 15:01:11 | 0:00:05.047556 |   Fail   |
+|       8       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 16:01:11 | 2023-10-13 16:01:17 | 0:00:05.867203 |   Fail   |
+|       9       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 17:01:17 | 2023-10-13 17:01:24 | 0:00:06.565858 |   Fail   |
+|      10       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 18:01:24 | 2023-10-13 18:01:31 | 0:00:06.768935 |   Fail   |
+|      11       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 19:01:31 | 2023-10-13 19:01:37 | 0:00:06.026469 |   Fail   |
+|      12       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 20:01:37 | 2023-10-13 20:01:43 | 0:00:05.965398 |   Fail   |
+|      13       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 21:01:43 | 2023-10-13 21:01:50 | 0:00:06.775903 |   Fail   |
+|      14       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 22:01:50 | 2023-10-13 22:01:57 | 0:00:06.547442 |   Fail   |
+|      15       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-13 23:01:57 | 2023-10-13 23:02:03 | 0:00:06.317311 |   Fail   |
+|      16       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 00:02:03 | 2023-10-14 00:02:10 | 0:00:07.049543 |   Fail   |
+|      17       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 01:02:10 | 2023-10-14 01:02:18 | 0:00:07.970891 |   Fail   |
+|      18       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 02:02:18 | 2023-10-14 02:02:25 | 0:00:06.496725 |   Fail   |
+|      19       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 03:02:25 | 2023-10-14 03:02:31 | 0:00:06.149362 |   Fail   |
+|      20       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 04:02:31 | 2023-10-14 04:02:37 | 0:00:06.230602 |   Fail   |
+|      21       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 05:02:37 | 2023-10-14 05:02:44 | 0:00:06.482213 |   Fail   |
+|      22       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 06:02:44 | 2023-10-14 06:02:50 | 0:00:05.989274 |   Fail   |
+|      23       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 07:02:50 | 2023-10-14 07:02:56 | 0:00:05.947084 |   Fail   |
+|      24       | test_temperature (suites.weather_test.WeatherTest) | 2023-10-14 08:02:56 | 2023-10-14 08:03:03 | 0:00:06.460766 |   Fail   |
++---------------+----------------------------------------------------+---------------------+---------------------+----------------+----------+
