@@ -1,0 +1,3 @@
+*.pyc
+*.egg-info
+pre_commit_hook_result.txt
