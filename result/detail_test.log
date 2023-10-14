@@ -1,5 +1,5 @@
 2023-10-13 09:00:34,624 - INFO - ********** start (test_number = 1) **********
-2023-10-13 09:00:34,625 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 09:00:34,625 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 09:00:34,627 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 09:00:36,993 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 09:00:37,474 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -44,7 +44,7 @@
 | Thu 26 |          87           |           79            |      74%       |       74%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 09:00:39,393 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 09:00:39,393 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 09:00:39,397 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -65,7 +65,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 09:00:39,397 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 09:00:39,397 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 09:00:39,422 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -109,7 +109,7 @@
 2023-10-13 09:00:39,426 - INFO - ********** finish (test_number = 1) **********
 2023-10-13 09:00:39,427 - INFO - sleep 3600s (1h) ...
 2023-10-13 10:00:39,572 - INFO - ********** start (test_number = 2) **********
-2023-10-13 10:00:39,620 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 10:00:39,620 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 10:00:39,634 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 10:00:41,893 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 10:00:42,523 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -154,7 +154,7 @@
 | Thu 26 |          87           |           79            |      76%       |       76%        |
 | Fri 27 |          89           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 10:00:44,141 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 10:00:44,141 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 10:00:44,150 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -175,7 +175,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      76%       |       76%        |
 | Fri 27 |          32           |           26            |          90           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 10:00:44,150 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 10:00:44,150 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 10:00:44,173 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -219,7 +219,7 @@
 2023-10-13 10:00:44,185 - INFO - ********** finish (test_number = 2) **********
 2023-10-13 10:00:44,186 - INFO - sleep 3600s (1h) ...
 2023-10-13 11:00:44,285 - INFO - ********** start (test_number = 3) **********
-2023-10-13 11:00:44,291 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 11:00:44,291 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 11:00:44,294 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 11:00:46,456 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 11:00:47,663 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -264,7 +264,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          89           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 11:00:51,018 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 11:00:51,018 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 11:00:51,023 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -285,7 +285,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      76%       |       76%        |
 | Fri 27 |          32           |           26            |          90           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 11:00:51,023 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 11:00:51,023 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 11:00:51,035 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -329,7 +329,7 @@
 2023-10-13 11:00:51,037 - INFO - ********** finish (test_number = 3) **********
 2023-10-13 11:00:51,037 - INFO - sleep 3600s (1h) ...
 2023-10-13 12:00:51,122 - INFO - ********** start (test_number = 4) **********
-2023-10-13 12:00:51,125 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 12:00:51,125 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 12:00:51,127 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 12:00:52,903 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 12:00:53,522 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -374,7 +374,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 12:00:55,398 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 12:00:55,398 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 12:00:55,403 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -395,7 +395,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 12:00:55,403 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 12:00:55,403 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 12:00:55,415 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -439,7 +439,7 @@
 2023-10-13 12:00:55,417 - INFO - ********** finish (test_number = 4) **********
 2023-10-13 12:00:55,417 - INFO - sleep 3600s (1h) ...
 2023-10-13 13:00:55,510 - INFO - ********** start (test_number = 5) **********
-2023-10-13 13:00:55,516 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 13:00:55,516 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 13:00:55,518 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 13:00:58,011 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 13:00:59,161 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -484,7 +484,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 13:01:01,884 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 13:01:01,884 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 13:01:01,888 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -505,7 +505,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 13:01:01,889 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 13:01:01,889 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 13:01:01,899 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -549,7 +549,7 @@
 2023-10-13 13:01:01,901 - INFO - ********** finish (test_number = 5) **********
 2023-10-13 13:01:01,901 - INFO - sleep 3600s (1h) ...
 2023-10-13 14:01:01,981 - INFO - ********** start (test_number = 6) **********
-2023-10-13 14:01:01,987 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 14:01:01,987 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 14:01:01,992 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 14:01:04,067 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 14:01:04,570 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -594,7 +594,7 @@
 | Thu 26 |          87           |           79            |      76%       |       76%        |
 | Fri 27 |          89           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 14:01:06,785 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 14:01:06,785 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 14:01:06,789 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -615,7 +615,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      76%       |       76%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 14:01:06,789 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 14:01:06,789 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 14:01:06,799 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -659,7 +659,7 @@
 2023-10-13 14:01:06,800 - INFO - ********** finish (test_number = 6) **********
 2023-10-13 14:01:06,800 - INFO - sleep 3600s (1h) ...
 2023-10-13 15:01:06,816 - INFO - ********** start (test_number = 7) **********
-2023-10-13 15:01:06,822 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 15:01:06,822 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 15:01:06,826 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 15:01:08,945 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 15:01:10,005 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -704,7 +704,7 @@
 | Thu 26 |          87           |           79            |      76%       |       76%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 15:01:11,853 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 15:01:11,853 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 15:01:11,857 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -725,7 +725,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      76%       |       76%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 15:01:11,857 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 15:01:11,857 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 15:01:11,868 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -769,7 +769,7 @@
 2023-10-13 15:01:11,870 - INFO - ********** finish (test_number = 7) **********
 2023-10-13 15:01:11,870 - INFO - sleep 3600s (1h) ...
 2023-10-13 16:01:11,950 - INFO - ********** start (test_number = 8) **********
-2023-10-13 16:01:11,957 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 16:01:11,957 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 16:01:11,960 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 16:01:13,936 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 16:01:15,047 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -814,7 +814,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 16:01:17,809 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 16:01:17,809 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 16:01:17,813 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -835,7 +835,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 16:01:17,813 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 16:01:17,813 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 16:01:17,823 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -879,7 +879,7 @@
 2023-10-13 16:01:17,825 - INFO - ********** finish (test_number = 8) **********
 2023-10-13 16:01:17,825 - INFO - sleep 3600s (1h) ...
 2023-10-13 17:01:17,911 - INFO - ********** start (test_number = 9) **********
-2023-10-13 17:01:17,918 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 17:01:17,918 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 17:01:17,920 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 17:01:20,284 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 17:01:21,420 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -924,7 +924,7 @@
 | Thu 26 |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 17:01:24,466 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 17:01:24,466 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 17:01:24,471 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -945,7 +945,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 17:01:24,471 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 17:01:24,471 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 17:01:24,482 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -989,7 +989,7 @@
 2023-10-13 17:01:24,484 - INFO - ********** finish (test_number = 9) **********
 2023-10-13 17:01:24,484 - INFO - sleep 3600s (1h) ...
 2023-10-13 18:01:24,570 - INFO - ********** start (test_number = 10) **********
-2023-10-13 18:01:24,578 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 18:01:24,578 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 18:01:24,582 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 18:01:26,991 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 18:01:28,135 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1034,7 +1034,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          87           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 18:01:31,332 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 18:01:31,332 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 18:01:31,336 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1055,7 +1055,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 18:01:31,336 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 18:01:31,336 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 18:01:31,346 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1099,7 +1099,7 @@
 2023-10-13 18:01:31,348 - INFO - ********** finish (test_number = 10) **********
 2023-10-13 18:01:31,348 - INFO - sleep 3600s (1h) ...
 2023-10-13 19:01:31,435 - INFO - ********** start (test_number = 11) **********
-2023-10-13 19:01:31,441 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 19:01:31,441 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 19:01:31,444 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 19:01:33,442 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 19:01:34,585 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1144,7 +1144,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 19:01:37,450 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 19:01:37,450 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 19:01:37,455 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1165,7 +1165,7 @@
 | Thu 26 |          30           |           26            |          86           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 19:01:37,455 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 19:01:37,455 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 19:01:37,466 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1209,7 +1209,7 @@
 2023-10-13 19:01:37,468 - INFO - ********** finish (test_number = 11) **********
 2023-10-13 19:01:37,468 - INFO - sleep 3600s (1h) ...
 2023-10-13 20:01:37,569 - INFO - ********** start (test_number = 12) **********
-2023-10-13 20:01:37,572 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 20:01:37,572 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 20:01:37,575 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 20:01:39,562 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 20:01:40,701 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1254,7 +1254,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          87           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 20:01:43,521 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 20:01:43,521 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 20:01:43,525 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1275,7 +1275,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 20:01:43,525 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 20:01:43,525 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 20:01:43,536 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1319,7 +1319,7 @@
 2023-10-13 20:01:43,538 - INFO - ********** finish (test_number = 12) **********
 2023-10-13 20:01:43,538 - INFO - sleep 3600s (1h) ...
 2023-10-13 21:01:43,612 - INFO - ********** start (test_number = 13) **********
-2023-10-13 21:01:43,619 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 21:01:43,619 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 21:01:43,624 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 21:01:45,935 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 21:01:47,171 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1364,7 +1364,7 @@
 | Thu 26 |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 21:01:50,378 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 21:01:50,378 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 21:01:50,383 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1385,7 +1385,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 21:01:50,383 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 21:01:50,383 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 21:01:50,393 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1429,7 +1429,7 @@
 2023-10-13 21:01:50,395 - INFO - ********** finish (test_number = 13) **********
 2023-10-13 21:01:50,395 - INFO - sleep 3600s (1h) ...
 2023-10-13 22:01:50,494 - INFO - ********** start (test_number = 14) **********
-2023-10-13 22:01:50,501 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 22:01:50,501 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 22:01:50,506 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 22:01:53,401 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 22:01:54,458 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1474,7 +1474,7 @@
 | Thu 26 |          87           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 22:01:57,031 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 22:01:57,031 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 22:01:57,036 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1495,7 +1495,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 22:01:57,036 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 22:01:57,036 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 22:01:57,047 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1539,7 +1539,7 @@
 2023-10-13 22:01:57,049 - INFO - ********** finish (test_number = 14) **********
 2023-10-13 22:01:57,049 - INFO - sleep 3600s (1h) ...
 2023-10-13 23:01:57,142 - INFO - ********** start (test_number = 15) **********
-2023-10-13 23:01:57,146 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-13 23:01:57,146 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-13 23:01:57,148 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-13 23:01:59,448 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-13 23:02:00,626 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1584,7 +1584,7 @@
 | Thu 26 |          87           |           79            |      74%       |       74%        |
 | Fri 27 |          88           |           80            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 23:02:03,448 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-13 23:02:03,448 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-13 23:02:03,452 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1605,7 +1605,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-13 23:02:03,452 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-13 23:02:03,452 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-13 23:02:03,462 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1649,7 +1649,7 @@
 2023-10-13 23:02:03,463 - INFO - ********** finish (test_number = 15) **********
 2023-10-13 23:02:03,464 - INFO - sleep 3600s (1h) ...
 2023-10-14 00:02:03,565 - INFO - ********** start (test_number = 16) **********
-2023-10-14 00:02:03,571 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 00:02:03,571 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 00:02:03,575 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 00:02:06,624 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 00:02:07,761 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1694,7 +1694,7 @@
 | Thu 26 |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 00:02:10,604 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 00:02:10,604 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 00:02:10,608 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1715,7 +1715,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 | Fri 27 |          32           |           26            |          90           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 00:02:10,608 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 00:02:10,608 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 00:02:10,619 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1759,7 +1759,7 @@
 2023-10-14 00:02:10,621 - INFO - ********** finish (test_number = 16) **********
 2023-10-14 00:02:10,621 - INFO - sleep 3600s (1h) ...
 2023-10-14 01:02:10,650 - INFO - ********** start (test_number = 17) **********
-2023-10-14 01:02:10,656 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 01:02:10,656 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 01:02:10,658 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 01:02:13,538 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 01:02:14,694 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1804,7 +1804,7 @@
 | Thu 26 |          88           |           79            |      74%       |       74%        |
 | Fri 27 |          89           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 01:02:18,611 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 01:02:18,611 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 01:02:18,615 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1825,7 +1825,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 01:02:18,615 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 01:02:18,615 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 01:02:18,625 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1869,7 +1869,7 @@
 2023-10-14 01:02:18,627 - INFO - ********** finish (test_number = 17) **********
 2023-10-14 01:02:18,627 - INFO - sleep 3600s (1h) ...
 2023-10-14 02:02:18,713 - INFO - ********** start (test_number = 18) **********
-2023-10-14 02:02:18,719 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 02:02:18,719 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 02:02:18,721 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 02:02:21,294 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 02:02:22,437 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -1914,7 +1914,7 @@
 | Thu 26 |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 02:02:25,195 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 02:02:25,195 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 02:02:25,200 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1935,7 +1935,7 @@
 | Thu 26 |          31           |           26            |          88           |           79            |      75%       |       75%        |
 | Fri 27 |          31           |           26            |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 02:02:25,201 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 02:02:25,201 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 02:02:25,213 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -1979,7 +1979,7 @@
 2023-10-14 02:02:25,216 - INFO - ********** finish (test_number = 18) **********
 2023-10-14 02:02:25,216 - INFO - sleep 3600s (1h) ...
 2023-10-14 03:02:25,314 - INFO - ********** start (test_number = 19) **********
-2023-10-14 03:02:25,322 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 03:02:25,322 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 03:02:25,325 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 03:02:27,369 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 03:02:28,542 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2024,7 +2024,7 @@
 | Fri 27 |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          88           |           79            |      74%       |       74%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 03:02:31,456 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 03:02:31,456 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 03:02:31,459 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2045,7 +2045,7 @@
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 03:02:31,460 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 03:02:31,460 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 03:02:31,469 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2089,7 +2089,7 @@
 2023-10-14 03:02:31,471 - INFO - ********** finish (test_number = 19) **********
 2023-10-14 03:02:31,471 - INFO - sleep 3600s (1h) ...
 2023-10-14 04:02:31,554 - INFO - ********** start (test_number = 20) **********
-2023-10-14 04:02:31,560 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 04:02:31,560 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 04:02:31,563 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 04:02:33,809 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 04:02:34,969 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2134,7 +2134,7 @@
 | Fri 27 |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          89           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 04:02:37,775 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 04:02:37,775 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 04:02:37,779 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2155,7 +2155,7 @@
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          32           |           26            |          90           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 04:02:37,779 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 04:02:37,779 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 04:02:37,790 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2199,7 +2199,7 @@
 2023-10-14 04:02:37,791 - INFO - ********** finish (test_number = 20) **********
 2023-10-14 04:02:37,792 - INFO - sleep 3600s (1h) ...
 2023-10-14 05:02:37,890 - INFO - ********** start (test_number = 21) **********
-2023-10-14 05:02:37,897 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 05:02:37,897 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 05:02:37,900 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 05:02:40,094 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 05:02:41,259 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2244,7 +2244,7 @@
 | Fri 27 |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          89           |           79            |      72%       |       72%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 05:02:44,363 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 05:02:44,363 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 05:02:44,367 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2265,7 +2265,7 @@
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          32           |           26            |          90           |           79            |      72%       |       72%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 05:02:44,367 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 05:02:44,367 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 05:02:44,377 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2309,7 +2309,7 @@
 2023-10-14 05:02:44,379 - INFO - ********** finish (test_number = 21) **********
 2023-10-14 05:02:44,380 - INFO - sleep 3600s (1h) ...
 2023-10-14 06:02:44,474 - INFO - ********** start (test_number = 22) **********
-2023-10-14 06:02:44,480 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 06:02:44,480 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 06:02:44,483 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 06:02:46,670 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 06:02:47,837 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2354,7 +2354,7 @@
 | Fri 27 |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          89           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 06:02:50,453 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 06:02:50,453 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 06:02:50,457 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2375,7 +2375,7 @@
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          32           |           26            |          90           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 06:02:50,457 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 06:02:50,457 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 06:02:50,468 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2419,7 +2419,7 @@
 2023-10-14 06:02:50,470 - INFO - ********** finish (test_number = 22) **********
 2023-10-14 06:02:50,470 - INFO - sleep 3600s (1h) ...
 2023-10-14 07:02:50,570 - INFO - ********** start (test_number = 23) **********
-2023-10-14 07:02:50,578 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 07:02:50,578 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 07:02:50,580 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 07:02:52,577 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 07:02:53,734 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2464,7 +2464,7 @@
 | Fri 27 |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          89           |           79            |      73%       |       73%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 07:02:56,508 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 07:02:56,508 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 07:02:56,512 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2485,7 +2485,7 @@
 | Fri 27 |          32           |           26            |          90           |           79            |      73%       |       73%        |
 | Sat 28 |          32           |           26            |          90           |           79            |      72%       |       72%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 07:02:56,512 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 07:02:56,512 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 07:02:56,523 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2529,7 +2529,7 @@
 2023-10-14 07:02:56,525 - INFO - ********** finish (test_number = 23) **********
 2023-10-14 07:02:56,526 - INFO - sleep 3600s (1h) ...
 2023-10-14 08:02:56,622 - INFO - ********** start (test_number = 24) **********
-2023-10-14 08:02:56,629 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahreneit format
+2023-10-14 08:02:56,629 - INFO - [Step 1]: Get weather in Singapore in Celsius and Fahrenheit format
 2023-10-14 08:02:56,631 - DEBUG - Starting new HTTPS connection (1): weather.com
 2023-10-14 08:02:59,186 - DEBUG - https://weather.com:443 "GET /weather/tenday/l/SNXX0006?unit=m HTTP/1.1" 200 None
 2023-10-14 08:03:00,338 - DEBUG - Starting new HTTPS connection (1): weather.com
@@ -2574,7 +2574,7 @@
 | Fri 27 |          88           |           80            |      73%       |       73%        |
 | Sat 28 |          89           |           80            |      72%       |       72%        |
 +--------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 08:03:03,072 - INFO - [Step 2]: Convert temperature from Celsius format to Fahreneit format
+2023-10-14 08:03:03,072 - INFO - [Step 2]: Convert temperature from Celsius format to Fahrenheit format
 2023-10-14 08:03:03,076 - DEBUG - values table after convert Celsius to Fahrenheit:
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(C)  |  NIGHT_TEMPERATURE_(C)  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |
@@ -2595,7 +2595,7 @@
 | Fri 27 |          31           |           26            |          88           |           79            |      73%       |       73%        |
 | Sat 28 |          32           |           27            |          90           |           81            |      72%       |       72%        |
 +--------+-----------------------+-------------------------+-----------------------+-------------------------+----------------+------------------+
-2023-10-14 08:03:03,077 - INFO - [Step 3]: Validate temperature in Fahreneit  with temperature in Celsius
+2023-10-14 08:03:03,077 - INFO - [Step 3]: Validate temperature in Fahrenheit  with temperature in Celsius
 2023-10-14 08:03:03,088 - DEBUG - * actual *
 +--------+-----------------------+-------------------------+----------------+------------------+
 |  DATE  |  DAY_TEMPERATURE_(F)  |  NIGHT_TEMPERATURE_(F)  |  DAY_HUMIDITY  |  NIGHT_HUMIDITY  |

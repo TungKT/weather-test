@@ -62,7 +62,7 @@ def get_humidity(daily_statis):
 
 def get_weather(city="singapore", temp_fmt="celsius"):
     """
-    Get weather (temperature in Celsius or Fahreneit, humidity) of a city
+    Get weather (temperature in Celsius or Fahrenheit, humidity) of a city
     Return: a dataframe
     """
     soup = get_weather_statis(city, temp_fmt)
@@ -99,7 +99,7 @@ def get_weather(city="singapore", temp_fmt="celsius"):
     return df
 
 
-def get_weather_in_celsius_and_fahreneit(city='singapore'):
+def get_weather_in_celsius_and_fahrenheit(city='singapore'):
     """
     Get weather of a city with temperature in Celsius and in Fahrenheit
     Return: dataframe of temperature in Celsius, dataframe of temperature in fahrenheit
