@@ -23,8 +23,8 @@ tabulate==0.9.0
 
 [Git Clone]  
 
-    git clone ssh://git@git.dasannetworks.com:7999/ysuite/dal.git  
-    cd weather_test  
+    git clone https://github.com/TungKT/weather-test.git  
+    cd weather-test  
     pip install -r requirements.txt  
 
 
