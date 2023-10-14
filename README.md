@@ -58,8 +58,8 @@ optional arguments:
   --interval INTERVAL  interval time to run test (unit: second)  
   --duration DURATION  duration time to run test (unit: second)  
 
-$ python runtest.py --interval <INTERVAL_TIME> --duration <DURATION>  
-It will excute test weather of Singapore every <INTERVAL_TIME> seconds in <DURATION> seconds.  
+$ python runtest.py --interval INTERVAL_TIME --duration DURATION_TIME  
+It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.  
 After run test, result will be saved in file ./result/detail_test.log and summary result will be save in file ./result/report_summary.txt.  
 
 For example:  
