@@ -1,6 +1,6 @@
 import unittest
 import logging
-from library import get_weather_in_celsius_and_fahrenheitt, convert_celsius_to_fahrenheit, compare_table
+from library import get_weather_in_celsius_and_fahrenheit, convert_celsius_to_fahrenheit, compare_table
 
 
 class WeatherTest(unittest.TestCase):
