@@ -12,11 +12,11 @@ This tool was developed base on python unittest framework.
 
 ### Requirements
 
-python 3.X later  
-pandas==1.3.5  
-requests==2.28.2  
-beautifulsoup4==4.9.3  
-tabulate==0.9.0  
+    python 3.X later  
+    pandas==1.3.5  
+    requests==2.28.2  
+    beautifulsoup4==4.9.3  
+    tabulate==0.9.0  
 
 
 ### Installation
@@ -48,20 +48,20 @@ tabulate==0.9.0
 
 ### How to use
 
-$ python runtest.py --help
-usage: runtest.py [-h] --interval INTERVAL --duration DURATION  
+    $ python runtest.py --help
+    usage: runtest.py [-h] --interval INTERVAL --duration DURATION  
 
-Using for run weather test multiple times with interval and duration time  
+    Using for run weather test multiple times with interval and duration time  
 
-optional arguments:  
-  -h, --help           show this help message and exit  
-  --interval INTERVAL  interval time to run test (unit: second)  
-  --duration DURATION  duration time to run test (unit: second)  
+    optional arguments:  
+    -h, --help           show this help message and exit  
+    --interval INTERVAL  interval time to run test (unit: second)  
+    --duration DURATION  duration time to run test (unit: second)  
 
-$ python runtest.py --interval INTERVAL_TIME --duration DURATION_TIME  
-It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.  
-After run test, result will be saved in file ./result/detail_test.log and summary result will be save in file ./result/report_summary.txt.  
+    $ python runtest.py --interval INTERVAL_TIME --duration DURATION_TIME  
+    It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.  
+    After run test, result will be saved in file ./result/detail_test.log and summary result will be save in file ./result/report_summary.txt.  
 
-For example:  
-    python runtest.py --interval 3600 --duration 86400  
-    # it will execute test weather of Singapore every 1 hour in a day  
+    For example:  
+        python runtest.py --interval 3600 --duration 86400  
+        # it will execute test weather of Singapore every 1 hour in a day  
