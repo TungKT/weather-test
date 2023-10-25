@@ -60,12 +60,12 @@ option 2: [install directly]
     --duration DURATION   duration time to run test (unit: second)
     -d OUTPUT_DIR, --output_dir OUTPUT_DIR
                             output directory where to save test log, default is
-                            "./result/"
+                            "./result/"  
 
-    $ run-weather-test --interval INTERVAL_TIME --duration DURATION_TIME  
-    It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.  
+    $ run-weather-test --interval INTERVAL_TIME --duration DURATION_TIME
+    It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.
     After run test, result will be saved in file OUTPUT_DIR/detail_test.log and summary result will be save in file OUTPUT_DIR/report_summary.txt.  
 
-    For example:  
-        run-weather-test --interval 3600 --duration 86400  
-        # it will execute test weather of Singapore every 1 hour in a day  
+    For example:
+        run-weather-test --interval 3600 --duration 86400
+        # it will execute test weather of Singapore every 1 hour in a day
