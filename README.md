@@ -28,6 +28,7 @@ option 1: [Git Clone]
     pip install . 
 
 option 2: [install directly]  
+
     pip install git+https://github.com/TungKT/weather-test.git@v2.0.0  
 
 ### Code Structure
@@ -48,9 +49,9 @@ option 2: [install directly]
 ### How to use
 
 $ run-weather-test -h  
+
 usage: run-weather-test [-h] --interval INTERVAL --duration DURATION  
                         [-d OUTPUT_DIR]  
-
 Using for run weather test multiple times with interval and duration time  
 
 optional arguments:  
