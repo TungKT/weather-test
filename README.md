@@ -13,7 +13,7 @@ This tool was developed base on python unittest framework.
 ### Requirements
 
 python 3.X later  
-pandas=1.3.5  
+pandas==1.3.5  
 requests==2.28.2  
 beautifulsoup4==4.9.3  
 tabulate==0.9.0  
@@ -21,12 +21,14 @@ tabulate==0.9.0
 
 ### Installation
 
-[Git Clone]  
+option 1: [Git Clone]  
 
     git clone https://github.com/TungKT/weather-test.git  
     cd weather-test  
-    pip install -r requirements.txt  
+    pip install . 
 
+option 2: [install directly]  
+    pip install git+https://github.com/TungKT/weather-test.git@v2.0.0  
 
 ### Code Structure
 
@@ -38,30 +40,31 @@ tabulate==0.9.0
     ├── suites
     |   ├── __init__.py
     |   └── weather_test.py
-    ├── result
-    │   ├── detail_test.log
-    │   └── report_summary.txt 
     ├── .gitignore
     ├── runtest.py
     ├── README.md
-    └── requirements.txt
+    └── setup.py
 
 ### How to use
 
-$ python runtest.py --help
-usage: runtest.py [-h] --interval INTERVAL --duration DURATION  
+$ run-weather-test -h  
+usage: run-weather-test [-h] --interval INTERVAL --duration DURATION  
+                        [-d OUTPUT_DIR]  
 
 Using for run weather test multiple times with interval and duration time  
 
 optional arguments:  
-  -h, --help           show this help message and exit  
-  --interval INTERVAL  interval time to run test (unit: second)  
-  --duration DURATION  duration time to run test (unit: second)  
+  -h, --help            show this help message and exit  
+  --interval INTERVAL   interval time to run test (unit: second)  
+  --duration DURATION   duration time to run test (unit: second)  
+  -d OUTPUT_DIR, --output_dir OUTPUT_DIR  
+                        output directory where to save test log, default is  
+                        "./result/"  
 
-$ python runtest.py --interval INTERVAL_TIME --duration DURATION_TIME  
+$ run-weather-test --interval INTERVAL_TIME --duration DURATION_TIME  
 It will excute test weather of Singapore every INTERVAL_TIME seconds in DURATION_TIME seconds.  
-After run test, result will be saved in file ./result/detail_test.log and summary result will be save in file ./result/report_summary.txt.  
+After run test, result will be saved in file OUTPUT_DIR/detail_test.log and summary result will be save in file OUTPUT_DIR/report_summary.txt.  
 
 For example:  
-    python runtest.py --interval 3600 --duration 86400  
+    run-weather-test --interval 3600 --duration 86400  
     # it will execute test weather of Singapore every 1 hour in a day  

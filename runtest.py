@@ -3,11 +3,17 @@ import time
 import datetime
 import logging
 import argparse
+import os
 from pandas import DataFrame
 from library import str_
 
 
-def config_logging():
+def make_dir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+
+def config_logging(output_dir):
     """
     Config logging to print output to console and log file
     """
@@ -22,7 +28,9 @@ def config_logging():
     stream_handler.setFormatter(formatter)
 
     # Create a FileHandler
-    file_handler = logging.FileHandler('result/detail_test.log', 'w+')
+    make_dir(output_dir)
+    output_log = os.path.join(output_dir, 'detail_test.log')
+    file_handler = logging.FileHandler(output_log, 'w+')
     file_handler.setLevel(logging.DEBUG)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     file_handler.setFormatter(formatter)
@@ -33,13 +41,14 @@ def config_logging():
     return logger
 
 
-def make_summary_report(results, start_time, stop_time):
+def make_summary_report(results, start_time, stop_time, output_dir):
     """
     Make summary report and save it in file report_summary
     """
     # config logger to save report to a new file
+    output_log_summary = os.path.join(output_dir, 'report_summary.txt')
     logger = logging.getLogger()
-    file_handler = logging.FileHandler('result/report_summary.txt', 'w+')
+    file_handler = logging.FileHandler(output_log_summary, 'w+')
     file_handler.setLevel(logging.INFO)
     formatter = logging.Formatter('%(message)s')
     file_handler.setFormatter(formatter)
@@ -47,7 +56,7 @@ def make_summary_report(results, start_time, stop_time):
 
     # process results and make report
     summary = DataFrame(results)
-    columns_map={
+    columns_map = {
         'test_number': 'TEST NUMBER',
         'name': 'NAME',
         'start_time': 'START TIME',
@@ -111,14 +120,14 @@ class TestRunner(unittest.TextTestRunner):
 
 
 # Main function to load test case and run test case multiple times then summary results
-def runtest(interval, duration):
-    logger = config_logging()
+def runtest(interval, duration, output_dir):
+    logger = config_logging(output_dir)
     runner = TestRunner()
     results = []
     start_time = datetime.datetime.now()
     total_count = duration//interval
     for i in range(total_count):
-        if i> 0:
+        if i > 0:
             logger.info(f'sleep {interval}s ({round(interval/3600, 3)}h) ...')
             time.sleep(interval)
         logger.info('*'*10 + f' start (test_number = {i+1}) ' + '*'*10)
@@ -128,16 +137,23 @@ def runtest(interval, duration):
         results.append(result)
         logger.info('*'*10 + f' finish (test_number = {i+1}) ' + '*'*10)
     stop_time = datetime.datetime.now()
-    make_summary_report(results, start_time, stop_time)
+    make_summary_report(results, start_time, stop_time, output_dir)
 
 
-if __name__ == '__main__':
+def main():
     # Define command line arguments
     parser = argparse.ArgumentParser(description='Using for run weather test multiple times with interval and duration time')
     parser.add_argument('--interval', type=int, required=True, help='interval time to run test (unit: second)')
     parser.add_argument('--duration', type=int, required=True, help='duration time to run test (unit: second)')
+    parser.add_argument('-d', '--output_dir', type=str, required=False, default='result',
+                        help='output directory where to save test log, default is "./result/"')
     # Parse the arguments
     args = parser.parse_args()
-    interval, duration = args.interval, args.duration
+    interval, duration, output_dir = args.interval, args.duration, args.output_dir
 
-    runtest(interval, duration)
+    # run test
+    runtest(interval, duration, output_dir)
+
+
+if __name__ == '__main__':
+    main()
